@@ -1,0 +1,302 @@
+/* Custom Styles for Fonda Paisa */
+:root {
+    --colombian-yellow: #fcdd09;
+    --colombian-blue: #003893;
+    --colombian-red: #ce1126;
+    --warm-brown: #8B4513;
+    --light-cream: #FFF8DC;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--light-cream);
+    color: #333;
+    min-height: 100vh;
+    letter-spacing: 0.01em;
+    font-size: 1.05rem;
+}
+
+.navbar {
+    background: linear-gradient(135deg, var(--colombian-blue), #004ba0) !important;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+    border-bottom: 3px solid var(--colombian-yellow);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--colombian-yellow) !important;
+    letter-spacing: 0.05em;
+    text-shadow: 1px 2px 8px rgba(0,0,0,0.12);
+}
+
+.nav-link {
+    color: white !important;
+    transition: color 0.3s ease;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: var(--colombian-yellow) !important;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, var(--colombian-red), #e6142b);
+    color: white;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+.carousel-caption h1, .carousel-caption h2, .carousel-caption h3 {
+    text-shadow: 2px 2px 12px rgba(0,0,0,0.4);
+}
+.carousel-caption .btn {
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    font-size: 1.15rem;
+    font-weight: 600;
+    padding: 0.75rem 2.5rem;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: var(--colombian-yellow);
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.category-section {
+    padding: 0;
+    position: relative;
+.carousel-caption h1, .carousel-caption h2, .carousel-caption h3 {
+    text-shadow: 2px 2px 12px rgba(0,0,0,0.4);
+}
+.carousel-caption .btn {
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    font-size: 1.15rem;
+    font-weight: 600;
+    padding: 0.75rem 2.5rem;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: var(--colombian-yellow);
+}
+}
+
+.category-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.category-header h2 {
+    color: var(--colombian-blue);
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+}
+
+.category-header h2::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background: var(--colombian-yellow);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu-card {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.13);
+    transition: all 0.3s cubic-bezier(.4,2,.3,1);
+    margin-bottom: 2.5rem;
+    overflow: hidden;
+    border: 1.5px solid #f3e7b4;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.menu-card-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.3s cubic-bezier(.4,2,.3,1);
+    border-bottom: 2px solid #f3e7b4;
+}
+
+.menu-card:hover .menu-card-img {
+    transform: scale(1.05);
+}
+
+.menu-card-body {
+    padding: 1.5rem;
+}
+
+.menu-card-title {
+    color: var(--colombian-blue);
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.menu-card-price {
+    color: var(--colombian-red);
+    font-size: 1.5rem;
+    font-weight: bold;
+    float: right;
+}
+
+.menu-card-description {
+    color: #666;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.btn-order {
+    background: linear-gradient(135deg, var(--colombian-yellow), #ffd700);
+    color: var(--colombian-blue);
+    border: none;
+    padding: 0.6rem 2rem;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    letter-spacing: 0.03em;
+    transition: all 0.3s cubic-bezier(.4,2,.3,1);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.btn-order:hover {
+    background: linear-gradient(135deg, #ffd700, var(--colombian-yellow));
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.promo-banner {
+    background: linear-gradient(135deg, var(--colombian-yellow), #ffd700);
+    color: var(--colombian-blue);
+    padding: 2.5rem 2rem;
+    border-radius: 18px;
+    margin: 3.5rem 0 2.5rem;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.13);
+    border: 1.5px solid #f3e7b4;
+}
+
+.promo-banner h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    background: linear-gradient(135deg, var(--colombian-blue), #003893 80%);
+    color: white;
+    padding: 3.5rem 0 2.5rem;
+    margin-top: 4rem;
+    border-top: 3px solid var(--colombian-yellow);
+    box-shadow: 0 -4px 24px rgba(0,0,0,0.10);
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content h5 {
+    color: var(--colombian-yellow);
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--colombian-yellow);
+}
+
+.cart-badge {
+    background: var(--colombian-red);
+    color: white;
+    border-radius: 50%;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.cart-btn {
+    position: relative;
+    background: linear-gradient(135deg, var(--colombian-yellow), #ffd700);
+    color: var(--colombian-blue);
+    border: none;
+    padding: 0.6rem 1.3rem;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    transition: all 0.3s cubic-bezier(.4,2,.3,1);
+}
+
+@media (max-width: 768px) {
+    .hero-section h1, .carousel-caption h1 {
+        font-size: 1.5rem !important;
+    }
+    .carousel-caption p, .hero-section p {
+        font-size: 1rem !important;
+    }
+    .category-header h2 {
+        font-size: 1.3rem;
+    }
+    .carousel-item img {
+        height: 16rem !important;
+    }
+    .carousel-caption .btn {
+        font-size: 1rem;
+        padding: 0.5rem 1.2rem;
+    }
+}
+
+.modal-header {
+    background: var(--colombian-blue);
+    color: white;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.quantity-btn {
+    background: var(--colombian-yellow);
+    color: var(--colombian-blue);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.quantity-display {
+    font-size: 1.2rem;
+    font-weight: bold;
+    min-width: 50px;
+    text-align: center;
+}

@@ -9,9 +9,6 @@ function menuCardComponent(item) {
           <p class="menu-card-description">${item.descripcion}</p>
           <div class="d-flex justify-content-between align-items-center">
             <span class="menu-card-price">$${item.precio.toLocaleString()}</span>
-            <button class="btn btn-order" onclick="addToCart('${item.nombre}', ${item.precio})">
-              <i class="fas fa-plus me-1"></i>Agregar
-            </button>
           </div>
         </div>
       </div>

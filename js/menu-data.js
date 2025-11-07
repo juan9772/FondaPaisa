@@ -42,7 +42,7 @@ platosPrincipales: [
     nombre: 'Bandeja Paisa',
     descripcion: 'Arroz, frijoles, huevo, tajadas de plátano maduro, aguacate, chorizo de cerdo y chicharrón o carne de cerdo (sin carne molida)',
     precio: 18000,
-    imagen: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?w=400&h=300&fit=crop' // bandeja paisa (mejor imagen de bandeja paisa)
+    imagen: '/img/bandejapaisa.png' // bandeja paisa (mejor imagen de bandeja paisa)
     },
     {
     nombre: 'Frijolada',
@@ -84,7 +84,7 @@ platosPrincipales: [
     nombre: 'Picada para 2',
     descripcion: 'Variedad de carnes, chicharrón, chorizo y acompañamientos para compartir',
     precio: 16000,
-    imagen: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?w=400&h=300&fit=crop' // picada para 2
+    imagen: '/img/picada.png' // picada para 2
     },
 ],
 desayunos: [
